@@ -1,0 +1,162 @@
+body {
+  background-color:#F0EAD6;
+}
+* {
+  margin: 0;
+  padding: 0;
+  }
+.left-container,.right-container{
+  padding: 30px ;
+}
+  
+/* Hero */
+  
+.hero{
+  height: 400px;
+  background-image: url("../images/flowersbg.webp");
+  background-size: cover;
+  top: 900px;
+}
+  
+/* Nav */
+  
+.nav-container {
+  background-color: white;
+ padding: 20px;
+}
+nav ul{
+  margin-left: 10px;
+}
+nav li {
+  float: left;
+  margin-right: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav li:hover{
+  color:#808000;
+} 
+/* main */
+  
+.main-container {
+  display: flex;
+}
+
+/* Left Container */
+
+.left-container {
+  width: 65%;
+  float: left;
+  clear: both;
+}
+button {
+  width: 50%;
+  padding: 25px;
+  float: left;
+  background-color: white;
+  border: none;
+}
+.left-b {
+  text-align: left;
+  border-right:1px solid #F0EAD6;
+}
+.right-b {
+  text-align: right;
+  border-left:1px solid #F0EAD6;
+}
+
+img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: 0 -360px;
+}
+.logo { 
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #808000;
+  border: 6px solid #F0EAD6;
+
+  position: absolute;
+  top: 950px;
+  left: 480px;
+}
+.spacer {
+  height: 80px;
+  padding: 50px; 
+  text-align: center;
+}
+.spacer span{
+  text-transform: uppercase;
+  font-size: 10pt; 
+}
+h1{
+  font-size: 50pt;
+  padding-top: 10px;
+}
+
+
+/* Recipe Section */
+
+.recipe-section {
+  width: 95%;
+  height: 1000px;
+  padding: 0 15px 0 15px;
+  font-size: 1.5em;;
+}
+.ingredients{
+  width: 40%;
+  float: left;
+  clear: both;
+}
+h3,h4{
+  padding-top: 20px;
+}
+ul{
+  list-style:circle;
+}
+.cake li, .ingredients li{
+  text-decoration: underline #808000;
+  margin-top: 5px;
+
+}
+.directions{
+  float: right;
+  width: 49%;
+}
+.c-note{
+  border-top: 2px solid #808000;
+  padding: 2px;
+}
+
+/* Right Container */
+
+.right-container {
+  width: 38%;
+  box-shadow: #808000;
+  
+}
+.aside {
+  border: 10px dashed #B9BD86;
+  margin: 0 auto;
+  height: 2100px;
+}
+
+.aside p{
+  width: 181px;
+  font-weight: bold;
+  height: 156px;
+  margin: 2px;
+ 
+  float: left;
+}
+.color-change{
+  background-color: #808000;
+}
+footer {
+  height: 20px;
+  background-color: #B9BD86;
+}
